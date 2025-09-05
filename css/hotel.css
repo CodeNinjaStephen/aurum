@@ -1,0 +1,20 @@
+.animate {
+  opacity: 0;
+  transform: translateX(-60px);
+  animation: smoothEntry 1s linear forwards;
+}
+
+p.animate {
+  animation-delay: 1.2s;
+}
+
+div.animate {
+  animation-delay: 2s;
+}
+
+@keyframes smoothEntry {
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}

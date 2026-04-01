@@ -1,15 +1,15 @@
 .animate {
   opacity: 0;
   transform: translateX(-60px);
-  animation: smoothEntry 1s linear forwards;
+  animation: smoothEntry 2.5s linear forwards;
 }
 
 p.animate {
-  animation-delay: 1.2s;
+  animation-delay: 3s;
 }
 
 div.animate {
-  animation-delay: 2s;
+  animation-delay: 3.2s;
 }
 
 @keyframes smoothEntry {
